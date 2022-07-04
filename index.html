@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"  />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"  />
+    <title>Document</title>
+</head>
+<body>
+    <section class="cards_container">
+
+
+        <div class="title">
+            <h1>pricing</h1>
+        </div>
+
+        <div class="arrow">
+            <img src="/images/arrow.png" alt="">
+            <span>
+                save 20%
+            </span>
+        </div>
+
+        <div class="toggle-btn">
+
+            <span>monthly</span>
+            
+            <label for="toggle-input" class="toggle">
+                <input type="checkbox" id="toggle-input" onclick="toggleYearMonth()">
+                <span class="toggle-circle"></span>
+            </label> 
+            
+            <span>annual</span>
+
+        </div>
+
+
+        <div id="card" class="cards">
+
+
+
+            <div class="card" style="background-color: #ffccd5c3;">
+                <h3 class="header">Basic</h3>
+                <p class="price">Free</p>
+                <ul class="features">
+                    <li>
+                        <i class="fas fa-check-circle"></i>
+                        Store up to 20 song
+                    </li>
+                    <li>
+                        <i class="fas fa-check-circle"></i>
+                        2 collaborators
+                    </li>
+                    <li>
+                        <i class="fas fa-check-circle"></i>
+                        Unlimited shares
+                    </li>
+                    <li>
+                        <i class="fas fa-check-circle"></i>
+                        128 bit AES encryption
+                    </li>
+                    <li>
+                        <i class="fas fa-check-circle"></i>
+                        Mac, PC, Android, iOS, and Browser
+                    </li>
+                </ul>
+                <a class="btn" >Get Started</a>
+            </div>
+
+
+            <div class="card active" style="background-color: #ecf39ec3;">
+                <h3 class="header">professional</h3>
+                <p id="price2" class="price">15 <span>/month</span></p>
+                <ul class="features">
+                    <li>
+                        <i class="fas fa-check-circle"></i>
+                        Everything in Basic
+                    </li>
+                    <li>
+                        <i class="fas fa-check-circle"></i>
+                        250GB of song storage
+                    </li>
+                    <li>
+                        <i class="fas fa-check-circle"></i>
+                        250GB of asset storage
+                    </li>
+                    <li>
+                        <i class="fas fa-check-circle"></i>
+                        2 collaborators
+                    </li>
+                    <li>
+                        <i class="fas fa-check-circle"></i>
+                        Share link password protection
+                    </li>
+                </ul>
+                <a class="btn" >Get Started</a>
+            </div>
+
+
+            <div class="card" style="background-color: #ff9a42c3;">
+                <h3 class="header">team</h3>
+                <p id="price3" class="price"><small>$</small> 15 <span>/month</span></p>
+                <ul class="features">
+                    <li>
+                        <i class="fas fa-check-circle"></i>
+                        Everything in Professional
+                    </li>
+                    <li>
+                        <i class="fas fa-check-circle"></i>
+                        workspace with up to 10 users
+                    </li>
+                    <li>
+                        <i class="fas fa-check-circle"></i>
+                        Custom storage plans
+                    </li>
+                    <li>
+                        <i class="fas fa-check-circle"></i>
+                        Custom branding by team
+                    </li>
+                </ul>
+                <a class="btn" >Get Started</a>
+            </div>
+            
+
+
+        
+        </div>
+    </section>
+
+<script src="main.js"></script>
+</body>
+</html>
