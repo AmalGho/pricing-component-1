@@ -176,7 +176,6 @@
 
 
 .arrow {
-    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -239,6 +238,7 @@
 
 @media (max-width: 1023px) {
     .arrow {
+        width: 100%;
         right: 4rem;
         top: 0rem;
         margin-top: 10rem;
